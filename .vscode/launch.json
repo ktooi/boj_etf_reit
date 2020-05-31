@@ -1,0 +1,15 @@
+{
+    "configurations": [
+        {
+            "name": "UnitTest",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceRoot}\\boj_etf_reit\\tests\\reader\\test_workbook.py",
+            "console": "integratedTerminal",
+            "env": {
+                "PATH": "${env:PATH};${workspaceRoot}\\webdriver",
+                "PYTHONPATH": "${env:PYTHONPATH};${workspaceRoot}\\"
+            }
+        }
+    ]
+}
